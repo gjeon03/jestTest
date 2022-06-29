@@ -1,0 +1,23 @@
+{
+  "name": "jesttest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gjeon03/jestTest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gjeon03/jestTest/issues"
+  },
+  "homepage": "https://github.com/gjeon03/jestTest#readme",
+  "devDependencies": {
+    "jest": "^28.1.1"
+  }
+}
