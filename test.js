@@ -1,13 +1,11 @@
-function getUser(id) {
-  return {
-    id,
-    email: `user${id}@test.com`,
-  };
-}
+// function getUser(id) {
+//   return {
+//     id,
+//     email: `user${id}@test.com`,
+//   };
+// }
 
-test("return a user object", () => {
-  expect(getUser(1)).toEqual({
-    id: 1,
-    email: `user1@test.com`,
-  });
+test("number 0 is falsy but string 0 is truthy", () => {
+  expect(0).toBeFalsy();
+  expect("0").toBeTruthy();
 });
